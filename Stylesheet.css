@@ -1,0 +1,86 @@
+/* Mobile Styles */
+@media (max-width: 600px) {
+  /* Chatbot container */
+  .chatbot-container {
+    width: 100%;
+    padding: 10px;
+  }
+  
+  /* Chatbot messages container */
+  .chatbot-messages {
+    max-width: 100%;
+  }
+  
+  /* Chatbot input container */
+  .chatbot-input {
+    width: 100%;
+  }
+  
+  /* Stacked buttons */
+  .chatbot-buttons {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* Button styling */
+  .chatbot-button {
+    margin-bottom: 10px;
+    /* Add more styles as needed */
+  }
+}
+
+/* Desktop Styles */
+@media (min-width: 601px) {
+  /* Chatbot container */
+  .chatbot-container {
+    width: 400px;
+    padding: 20px;
+  }
+  
+  /* Chatbot messages container */
+  .chatbot-messages {
+    max-width: 100%;
+  }
+  
+  /* Chatbot input container */
+  .chatbot-input {
+    width: 100%;
+  }
+  
+  /* Horizontal buttons */
+  .chatbot-buttons {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  /* Button styling */
+  .chatbot-button {
+    margin-right: 10px;
+    /* Add more styles as needed */
+  }
+}
+
+/* Common Styles */
+.chatbot-container {
+  background-color: #f5f5f5;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.chatbot-messages {
+  /* Add more styles as needed */
+}
+
+.chatbot-input {
+  /* Add more styles as needed */
+}
+
+.chatbot-button {
+  background-color: #4CAF50;
+  color: #ffffff;
+  padding: 10px 20px;
+  border-radius: 3px;
+  border: none;
+  cursor: pointer;
+  /* Add more styles as needed */
+}
